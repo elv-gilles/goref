@@ -147,6 +147,8 @@ func execute(attachPid int, exeFile, coreFile, outFile string, conf *config.Conf
 	}
 	if loadConfErr != nil {
 		logflags.DebuggerLogger().Errorf("%v", loadConfErr)
+		fmt.Fprintf(os.Stderr, "%v\n", loadConfErr)
+		return 1
 	}
 
 	if maxRefDepth > 0 {
