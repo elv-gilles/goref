@@ -26,8 +26,8 @@ import (
 	"github.com/go-delve/delve/service/debugger"
 	"github.com/spf13/cobra"
 
-	myproc "github.com/cloudwego/goref/pkg/proc"
-	"github.com/cloudwego/goref/pkg/version"
+	myproc "github.com/elv-gilles/goref/pkg/proc"
+	"github.com/elv-gilles/goref/pkg/version"
 )
 
 var (

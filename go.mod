@@ -1,4 +1,4 @@
-module github.com/cloudwego/goref
+module github.com/elv-gilles/goref
 
 go 1.24
 
